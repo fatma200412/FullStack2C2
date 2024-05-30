@@ -10,28 +10,46 @@
       tr,
       td,
       th {
-        border: 1px solid black;
+        border: 1px black;
 
-        /* border-style: double; */
-        /* border-collapse: collapse; */
+        margin: 20px;
+        border-style: solid;
+        border-collapse: collapse;
       }
-      td {
-        border-radius: 10px;
+
+      th {
+        /* background-color: aqua; */
+        /* padding: 20px; */
+
+        border: 2px solid black;
       }
-      /* th {
-        background-color: aqua;
-      } */
     </style>
   </head>
   <body>
     <!-- row=>tr -->
     <!-- col=>td th -->
 
-    <table>
+    <table style="width: 250px">
+      <colgroup span="3" style="background-color: aqua"></colgroup>
+      <colgroup span="2" style="background-color: yellow"></colgroup>
+      <colgroup span="1"></colgroup>
+      <colgroup span="3" style="background-color: blueviolet"></colgroup>
+
       <thead>
         <tr>
-          <th>Ad</th>
-          <th>Soyad</th>
+          <th style="width: 100px">Ad</th>
+          <th style="width: 100px">Soyad</th>
+          <th style="width: 500px">Age</th>
+
+          <th style="width: 100px">Ad</th>
+          <th style="width: 100px">Soyad</th>
+          <th style="width: 500px">Age</th>
+          <th style="width: 100px">Ad</th>
+          <th style="width: 100px">Soyad</th>
+          <th style="width: 500px">Age</th>
+          <th style="width: 100px">Ad</th>
+          <th style="width: 100px">Soyad</th>
+          <th style="width: 500px">Age</th>
         </tr>
       </thead>
 
@@ -39,6 +57,16 @@
         <tr>
           <td>Fatma</td>
           <td>Guliyeva</td>
+          <td>25</td>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
         </tr>
       </tbody>
     </table>
@@ -47,6 +75,9 @@
     <br /><br />
 
     <table>
+      <colgroup span="1"></colgroup>
+
+      <colgroup span="3" style="background-color: red"></colgroup>
       <tr>
         <th colspan="6">Time Table</th>
       </tr>
