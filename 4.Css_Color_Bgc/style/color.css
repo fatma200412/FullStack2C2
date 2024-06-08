@@ -1,0 +1,28 @@
+/* h1 {
+  color: yellow;
+}
+.h1 {
+  color: aqua;
+}
+#heading1 {
+  color: blueviolet;
+}
+.hh1 {
+  border: 2px solid black;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.box1 {
+  background-color: hwb(180 0% 0%);
+}
+.box2 {
+  background-color: blueviolet;
+}
+.box3 {
+  background-color: rgb(255, 0, 254);
+}
