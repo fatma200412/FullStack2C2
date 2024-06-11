@@ -1,0 +1,79 @@
+/* Sifirlamaq ucun  */
+/* * {
+  margin: 0;
+} */
+
+/* p tegi vasitesile butun elementlere style verir */
+/* p {
+  color: red;
+} */
+/* 
+#par1 {
+  text-align: center;
+} */
+/* .paragraf {
+  background-color: aqua;
+}
+
+.par2 {
+  text-align: center;
+} */
+
+/* body ul {
+  border: 2px solid black;
+} */
+
+/* body > ul {
+  border: 2px solid black;
+} */
+
+/* p + h5 {
+  background-color: red;
+} */
+
+/* p ~ h5 {
+  background-color: red;
+}
+.div1 ul {
+  border: 2px solid black;
+} */
+
+/* [class="par3"] {
+  color: blue;
+}
+
+[href] {
+  background-color: blueviolet;
+} */
+/* [target="_blank"] {
+  background-color: aqua;
+} */
+
+/* p[class] {
+  background-color: red;
+} */
+
+.selector:link {
+  background-color: aqua;
+}
+
+.selector:visited {
+  background-color: rgb(0, 255, 17);
+}
+.selector:hover {
+  background-color: red;
+}
+/* 
+li:first-child {
+  color: red;
+} */
+
+li:last-child {
+  color: red;
+}
+li:nth-child(2) {
+  color: blue;
+}
+li:nth-last-child(3) {
+  background-color: aqua;
+}
