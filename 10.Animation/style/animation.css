@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 90vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* animation-name: pilleken; */
+  animation-name: long;
+  animation-duration: 6s;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* @keyframes pilleken {
+  20% {
+    top: 0;
+    left: 100px;
+  }
+  40% {
+    top: 100px;
+    left: 100px;
+  }
+  60% {
+    top: 100px;
+    left: 200px;
+  }
+  80% {
+    top: 200px;
+    left: 200px;
+  }
+  100% {
+    top: 200px;
+    left: 300px;
+  }
+} */
+
+@keyframes long {
+  100% {
+    width: 100%;
+  }
+}

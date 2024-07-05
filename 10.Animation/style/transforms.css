@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 90vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-top: 10px solid red;
+  transition: 2s;
+}
+
+.container .box:hover {
+  /* rotato-firlanma hereketi */
+  /* transform: rotate(180deg); */
+  /* transform: rotateX(50deg); */
+  /* transform: rotateY(50deg); */
+  /* transform: rotateZ(50deg); */
+
+  /* translate - x ve y oxu uzre hereket */
+  /* transform: translate(50px, -100px); */
+  /* transform: translateX(90px); */
+  /* transform: translateY(90px); */
+
+  /* scale(width, height)-boyutme hereketleri */
+  /* transform: scale(2,5); */
+  /* transform: scaleX(4); */
+  /* transform: scaleY(4); */
+
+  /* skew-papeloqram formada eyir */
+  /* transform: skewX(50deg); */
+  /* transform: skewY(50deg); */
+
+  /* matrix(scaleX() skewY()  skewsX() scaleY() translateX(), translateY()) */
+  transform: matrix(2, 1, 2, 4, 2, 2);
+}
