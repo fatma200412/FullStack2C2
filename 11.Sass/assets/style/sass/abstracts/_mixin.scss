@@ -1,0 +1,12 @@
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin box($width: 100px, $height: 100px, $boderRadius: 50%, $bgc: yellow) {
+  width: $width;
+  height: $height;
+  border-radius: $boderRadius;
+  background-color: $bgc;
+}
