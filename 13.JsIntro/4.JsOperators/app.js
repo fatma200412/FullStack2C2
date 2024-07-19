@@ -37,3 +37,13 @@ if (5 % 2 != 0) {
 }
 
 console.log(1 === "01");
+
+console.log(typeof "2");
+console.log(typeof +"2");
+console.log(typeof Number("2"));
+console.log(typeof 5);
+console.log(typeof String(5));
+
+let a = 5;
+console.log(a++);
+console.log(++a);
