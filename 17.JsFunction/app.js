@@ -157,17 +157,14 @@
 //#region Task5.Verilmiş string-in palindron olub olmadığını yoxlayan funksiya yazin
 
 function isPalindrome(str) {
-  let cleaned = str.replace(/[A-Za-z0-9]/g, "").toLowerCase();
+  let cleaned = str.replace(/[^A-Za-z0-9]/g, "").toLowerCase(); // Use [^A-Za-z0-9] to remove non-alphanumeric characters
   let reversed = cleaned.split("").reverse().join("");
 
-  return cleaned == reversed;
+  return cleaned === reversed;
 }
 
 let str = prompt("daxil edin");
 let result = isPalindrome(str);
 console.log(result);
-
-// let str = "asdfg";
-// console.log(str.reverse());
 
 //#endregion
