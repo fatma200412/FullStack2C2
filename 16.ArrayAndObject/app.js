@@ -39,18 +39,18 @@
 
 // //Object
 
-let obj = {
-  // key:value
-  name: "fatma",
-  surname: "guliyeva",
-  age: 63,
-  password: {
-    email: "asdfg@sdfg",
-    pass: "asdfg",
-  },
-};
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
+// let obj = {
+//   // key:value
+//   name: "fatma",
+//   surname: "guliyeva",
+//   age: 63,
+//   password: {
+//     email: "asdfg@sdfg",
+//     pass: "asdfg",
+//   },
+// };
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
 // // console.log(JSON.stringify(obj));
 
 // let obj2 = JSON.parse(JSON.stringify(obj));
@@ -113,7 +113,50 @@ console.log(Object.values(obj));
 //   },
 // ];
 
+// let obj = {
+//   id: 3,
+//   name: "Fatma",
+//   age: 18,
+//   hobbies: ["musiqiye qulaq asmaq", "filmlere baxmaq"],
+//   password: {
+//     email: "medine@mail.com",
+//     pass: "123456",
+//     member: {
+//       baci: "baci",
+//       qardas: "qardas",
+//     },
+//   },
+// };
+
 // console.log(students);
+// // students.push(obj);
+// // console.log(students);
+// students.unshift(obj);
+// console.log(students);
+
+// students.pop(obj);
+// console.log(students);
+// students.shift(obj);
+// console.log(students);
+
+// let arr2 = ["armud", "alma", "kivi"];
+
+// console.log(arr2.join("-"));
+
+// delete arr2[0]
+// console.log(arr2)
+
+// let arr3 = [1, 2, 3, 4];
+
+// let newArr = arr2.concat(arr3);
+// console.log(newArr);
+// console.log(newArr.splice(2, 4));
+// console.log(newArr.splice(1, 6,));
+
+let arr = [[1, 2], [3, 4], 5];
+
+console.log(arr);
+console.log(arr.flat());
 
 // // console.log(students[0].age + students[1].age);  //her zaman duzgun deyil
 
